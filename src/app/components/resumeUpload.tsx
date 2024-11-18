@@ -128,7 +128,7 @@ const ResumeUpload: React.FC<ResumeUploadProps> = ({ file, setFile }) => {
     try {
       const backendApi =
         process.env.NEXT_PUBLIC_BACKEND_URL ||
-        "https://leads.proficientnowtech.com/api/nocodb/leads";
+        "https://leads.proficientnowtech.com/api/nocodb/leads/apolloio/v2";
 
       console.log("Sending request to:", backendApi);
 
